@@ -22,10 +22,38 @@ body {
   align-items: flex-start;
   gap: 15px;
   cursor: pointer;
+  font-size: 12px;
 }
+.size1, .color1{
+  font-size: 12px  !important;
+  margin-bottom: 7px;
+}
+.hash{
+  height: 100%;
+  font-size: 12px !important;
 
+}
+.endcard{
+  display: flex;
+  justify-content: space-between;
+}
 input[type="radio"] {
   margin-top: 5px;
+}
+
+.endtext{
+  color: #f96f86;
+}
+
+.buttonadd{
+  width: 100%;
+  padding: 15px;
+  background-color: #ff6b83;
+  color: white;
+  font-size: 14px;
+  border-radius: 10px;
+  border: 0;
+  margin-top: 20px;
 }
 
 .info {
@@ -64,7 +92,9 @@ input[type="radio"] {
   color: #aaa;
 }
 
-
+.selectop{
+  width: 80px !important;
+}
 
 .popular .badge {
   position: absolute;
@@ -109,6 +139,8 @@ input[type="radio"] {
   margin-top: 5px;
   margin-left: 30px;
   align-items: center;
+  align-items: end;
+  
 }
 
 select {
