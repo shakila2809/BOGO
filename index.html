@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pricing Options</title>
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+  <div class="container">
+    <!-- 1 Unit -->
+    <div class="card selected">
+      <label>
+        <input type="radio" name="unit" checked />
+        <div class="info">
+          <div class="top">
+            <span class="unit">1 Unit</span>
+            <span class="discount">10% Off</span>
+          </div>
+          <div class="details">Standard Price</div>
+        </div>
+        <div class="price">
+          <div>$10.00 USD</div>
+          <div class="old-price">$24.00 USD</div>
+        </div>
+      </label>
+       <!-- Moved this outside of label -->
+       <div class="options">
+        <div class="option-row">
+          <label>#1</label>
+          <select>
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+          </select>
+          <select>
+            <option>Black</option>
+            <option>White</option>
+          </select>
+        </div>
+        <div class="option-row">
+          <label>#2</label>
+          <select>
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+          </select>
+          <select>
+            <option>Colour</option>
+            <option>Black</option>
+            <option>White</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2 Unit (Most Popular) -->
+    
+    <div class="card popular">
+      <div class="badge">MOST POPULAR</div>
+      <label>
+        <input type="radio" name="unit" />
+        <div class="info">
+          <div class="top">
+            <span class="unit">2 Unit</span>
+            <span class="discount">20% Off</span>
+          </div>
+        </div>
+        <div class="price">
+          <div>$18.00 USD</div>
+          <div class="old-price">$24.00 USD</div>
+        </div>
+      </label>
+    
+      <!-- Moved this outside of label -->
+      <div class="options">
+        <div class="option-row">
+          <label>#1</label>
+          <select>
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+          </select>
+          <select>
+            <option>Black</option>
+            <option>White</option>
+          </select>
+        </div>
+        <div class="option-row">
+          <label>#2</label>
+          <select>
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+          </select>
+          <select>
+            <option>Colour</option>
+            <option>Black</option>
+            <option>White</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    
+
+    <!-- 3 Unit -->
+    <div class="card">
+      <label>
+        <input type="radio" name="unit" />
+        <div class="info">
+          <div class="top">
+            <span class="unit">3 Unit</span>
+            <span class="discount">30% Off</span>
+          </div>
+        </div>
+        <div class="price">
+          <div>$24.00 USD</div>
+          <div class="old-price">$24.00 USD</div>
+        </div>
+      </label>
+       <!-- Moved this outside of label -->
+       <div class="options">
+        <div class="option-row">
+          <label>#1</label>
+          <select>
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+          </select>
+          <select>
+            <option>Black</option>
+            <option>White</option>
+          </select>
+        </div>
+        <div class="option-row">
+          <label>#2</label>
+          <select>
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+          </select>
+          <select>
+            <option>Colour</option>
+            <option>Black</option>
+            <option>White</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./js/script.js"></script>
+</body>
+</html>
